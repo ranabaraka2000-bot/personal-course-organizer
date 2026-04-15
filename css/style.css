@@ -249,7 +249,7 @@ footer {
 
   }
   table {
-    width: 100%;
+    width: 90%;
     min-width: auto;
     table-layout: auto;
   }
@@ -259,19 +259,8 @@ footer {
     font-size: 16px;
     text-align: center;
   }
-  
-
-  tr:hover{
-    background-color: tranparent !important;
-  }
-
-  tr:active {
-    background-color: #93cea5 !important;
-  }
 
   
-
-
   #contact {
     display: flex;
     flex-direction: column;
