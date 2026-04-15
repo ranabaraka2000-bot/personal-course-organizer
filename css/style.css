@@ -254,15 +254,23 @@ footer {
     table-layout: auto;
   }
 
+  th, td {
+    padding: 8px 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+
+  tr:hover{
+    background-color: tranparent !important;
+  }
+
   tr:active {
     background-color: #93cea5 !important;
   }
 
-  th, td {
-    padding: 20px 10px;
-    font-size: 16px;
-    text-align: center;
-  }
+  
+
 
   #contact {
     display: flex;
