@@ -244,13 +244,14 @@ footer {
   
   .table-container {
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     display: block;
 
   }
   table {
     width: 100%;
-    min-width: 450px;
+    min-width: auto;
+    table-layout: fixed;
   }
 
   tr:active {
