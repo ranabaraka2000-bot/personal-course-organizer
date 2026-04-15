@@ -132,6 +132,7 @@ section p {
 
 table {
   width: 100%;
+  min-width: 500px;
   border-collapse: collapse;
   margin-top: 75px;
   overflow: hidden;
@@ -240,5 +241,44 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
 
-}
+  }
+  table {
+    width: 100%;
+    min-width: 200px;
+  }
+
+  th, td {
+    padding: 10  px 6px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #contact aside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact aside img {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
