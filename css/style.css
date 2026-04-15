@@ -245,11 +245,16 @@ footer {
   .table-container {
     width: 100%;
     overflow-x: auto;
+    display: block;
 
   }
   table {
     width: 100%;
     min-width: 200px;
+  }
+
+  tr:active {
+    background-color: #93cea5 !important;
   }
 
   th, td {
@@ -282,3 +287,4 @@ footer {
     height: auto;
     border-radius: 10px;
   }
+}
