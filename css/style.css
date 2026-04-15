@@ -251,7 +251,7 @@ footer {
   table {
     width: 100%;
     min-width: auto;
-    table-layout: fixed;
+    table-layout: auto;
   }
 
   tr:active {
@@ -259,7 +259,7 @@ footer {
   }
 
   th, td {
-    padding: 15px 12px;
+    padding: 20px 10px;
     font-size: 16px;
     text-align: center;
   }
